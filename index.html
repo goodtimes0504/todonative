@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>待办事项列表</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <section class="container">
+      <div class="heading">
+        <img
+          src="https://iconfont.alicdn.com/p/illus/preview_image/yryehDxtDxQM/60bd5654-01c2-4516-825c-140dbd35b1fa.png"
+          class="heading_img"
+          alt=""
+        />
+        <!-- <img src="./拿着奶茶的女孩.svg" class="heading_img" alt="" /> -->
+        <h1 class="heading_title">to do list</h1>
+      </div>
+      <form class="form">
+        <div>
+          <label for="todo" class="form_label">~~today i want to~~</label>
+          <input
+            type="text"
+            id="todo"
+            name="to-do"
+            class="form_input"
+            size="30"
+            required
+          />
+          <button class="button"><span>submit</span></button>
+        </div>
+      </form>
+      <div>
+        <ul class="toDoList"></ul>
+      </div>
+    </section>
+    <script src="./script.js"></script>
+  </body>
+</html>
